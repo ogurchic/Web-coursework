@@ -82,12 +82,18 @@
 </script>
 
 <style scoped>
-/* Здесь выполняем требование о стилях внутри компонента */
+/* Убираем общий светлый фон, чтобы страница наследовала темный фон от body */
 .about-me-page {
-  background-color: #f8f9fa; /* Светлый фон для контраста с темными блоками */
-  color: #333; /* Основной цвет текста */
+  /* Текст по умолчанию будет белым, так как он наследуется от body */
+  width: 100%;
 }
 
+/* Стили для секций, которые теперь на темном фоне */
+.about-me-page section:not(.gift-certificate-section) {
+    color: white; /* Устанавливаем белый текст для темных секций */
+}
+
+/* Стили для блока "Начинающий фотограф" */
 .portfolio-category {
   position: relative;
   overflow: hidden;
@@ -117,6 +123,7 @@
   text-transform: uppercase;
 }
 
+/* Стили для разделителя-глаз */
 .eye-divider img {
     width: 100%;
     height: 300px;
@@ -124,19 +131,14 @@
 }
 
 .about-me-title {
-  /* Пример использования inline-стиля, как требует методичка */
-  /* Его можно было бы вынести в тег: style="writing-mode: vertical-rl;" */
   font-weight: bold;
-  /* Для вертикального текста, если потребуется */
-  /* writing-mode: vertical-rl; text-orientation: mixed; transform: rotate(180deg); */
 }
 
+/* Стили для блока "Заказать съемку" */
 .order-shoot-section {
     background: url('@/assets/3.png') no-repeat center center;
     background-size: cover;
     min-height: 50vh;
-    /* Инлайновый стиль из методички можно применить тут */
-    /* Например, для фильтра: filter: grayscale(50%); */
 }
 .order-shoot-section .container {
     background-color: rgba(0,0,0,0.4);
@@ -144,7 +146,13 @@
     border-radius: 5px;
 }
 
-section:not(.order-shoot-section) h3 {
+/* Отдельный класс для блока с сертификатом, чтобы сделать его светлым */
+.gift-certificate-section {
+    background-color: white; /* Белый фон, как в макете */
+    color: #333; /* Темный текст на светлом фоне */
+}
+
+.gift-certificate-section h3 {
     font-weight: 300;
 }
 </style>

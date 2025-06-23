@@ -67,7 +67,7 @@ const submitReview = () => {
 
 <style scoped>
 .review-card {
-  background-color: #2c3e50; /* Темно-синий для карточек */
+  background-color: #11241a; /* Темно-синий для карточек */
   color: white;
   border: none;
   transition: transform 0.2s;
@@ -83,12 +83,12 @@ const submitReview = () => {
 }
 /* Стили для формы */
 .form-control {
-    background-color: #2c3e50;
+    background-color: #11241a;
     color: white;
     border-color: #4e5d6c;
 }
 .form-control:focus {
-    background-color: #2c3e50;
+    background-color: #11241a;
     color: white;
     border-color: #a3b18a;
     box-shadow: 0 0 0 0.25rem rgba(163, 177, 138, 0.25);

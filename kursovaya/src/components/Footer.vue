@@ -6,10 +6,10 @@
         <a href="#" aria-label="Instagram">
           <img :src="instagram" alt="Instagram" width="24" height="24" />
         </a>
-        <a href="#" aria-label="Telegram">
+        <a href="https://t.me/durov" target="_blank" aria-label="Telegram">
           <img :src="telegram" alt="Telegram" width="24" height="24" />
         </a>
-        <a href="#" aria-label="VK">
+        <a href="https://vk.cc/cN5hYM" target="_blank" aria-label="VK">
           <img :src="vk" alt="VK" width="24" height="24" />
         </a>
       </div>
@@ -33,6 +33,6 @@ import vk from './icons/vk.svg'
 
 <style scoped>
 footer {
-  background-color:  #1a5f23;
+  background-color:  #14532d;
 }
 </style>
