@@ -17,15 +17,14 @@
 
     <div class="d-flex flex-column gap-3 w-100" style="max-width: 300px;">
       <a
-        href="https://www.instagram.com"
-        target="_blank"
+        href="#"
         class="btn btn-outline-light w-100 text-uppercase"
       >
         Написать в Инстаграмме
       </a>
 
       <a
-        href="https://t.me"
+        href="https://web.telegram.org/k/#@rickrollnv_bot"
         target="_blank"
         class="btn btn-outline-light w-100 text-uppercase"
       >
@@ -33,7 +32,7 @@
       </a>
 
       <a
-        href="https://vk.com"
+        href="https://vk.cc/cN5hYM"
         target="_blank"
         class="btn btn-outline-light w-100 text-uppercase"
       >
@@ -42,14 +41,14 @@
     </div>
   </div>
 </template>
-ы
+
 <script setup>
 // Никаких скриптов не требуется
 </script>
 
 <style scoped>
 .contact-page {
-  background-color: #1f3a30; /* Тёмно-зелёный как на макете */
+  background-color: #1f3a30; 
   min-height: 100vh;
 }
 

@@ -124,7 +124,7 @@ const filteredPhotos = computed(() =>
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  padding-top: 80px; /* 👈 чтобы контент не залезал под Header */
+  padding-top: 80px; 
 }
 
 .row {

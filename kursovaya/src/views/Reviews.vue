@@ -80,7 +80,7 @@ const submitReview = () => {
 }
 
 .review-card {
-  background-color: #2c3e50; /* Темно-синий для карточек */
+  background-color: #2c3e50; 
   color: white;
   border: none;
   transition: transform 0.2s;

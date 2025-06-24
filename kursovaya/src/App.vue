@@ -39,7 +39,6 @@ html, body, #app {
   color: white;
 }
 
-/* Sticky footer layout */
 .app-wrapper {
   display: flex;
   flex-direction: column;
